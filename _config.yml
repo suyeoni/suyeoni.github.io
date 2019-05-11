@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 locale                   : "ko-KR"
 title                    : "TIL"
 title_separator          : "-"
-name                     : "Suyeon Kim 金秀妍 スヨン"
+name                     : "Suyeon Kim"
 description              : ""
 url                      : "https://suyeoni.github.io"
 baseurl                  : ""
@@ -106,52 +106,53 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Suyeon Kim 金秀妍 スヨン"
+  avatar           : "/assets/images/profile_photo.JPG"
+  bio              : "Software devloper"
+  location         : "Tokyo"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/suyeoni.kim"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "kimsuyeon325@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/suyeoni"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/suyeoni_kim"
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/suyeoni.kim"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/suyeoni"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/suyeoni_kim"
+   # - label: "Facebook"
+   #   icon: "fab fa-fw fa-facebook-square"
       # url:
+   # - label: "GitLab"
+   #   icon: "fab fa-fw fa-gitlab"
+      # url:
+   # - label: "Bitbucket"
+   #   icon: "fab fa-fw fa-bitbucket"
+      # url:
+    
 
 
 # Reading Files
