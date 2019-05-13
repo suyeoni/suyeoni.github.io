@@ -9,7 +9,7 @@ tags:
   - spark
   - json
   - rdd
-gallery1:
+gallery:
   - url: /_posts/meta/2019-05-11-json-parsing-in-spark_1.png
     image_path: /_posts/meta/2019-05-11-json-parsing-in-spark_1.png
     alt: "JSON Objects, not List"
@@ -42,7 +42,7 @@ The problem is miss the 'new line' when converting to JSON, like **{json}\n{json
 So I did some tests about making 'Dataframe' with JSON formats.
 
 #### JSON Objects, not List  
-{% include gallery id="gallery1" %}
+{% include gallery id="gallery" %}
 
 #### JSON Objects in List  
 {% include gallery id="gallery2" %}
