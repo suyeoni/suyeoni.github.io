@@ -1,7 +1,29 @@
 ---
 title: "JSON parsing to make RDD in spark"
 date: 2019-05-10 16:05:00 -0900
-categories: spark json rdd
+categories:
+  - spark
+  - json
+  - rdd
+tags:
+  - spark
+  - json
+  - rdd
+gallery1:
+  - url: meta/2019-05-11-json-parsing-in-spark_1.png
+    image_path: meta/2019-05-11-json-parsing-in-spark_1.png
+    alt: "JSON Objects, not List"
+    title: "JSON Objects, not List"
+gallery2:    
+  - url: meta/2019-05-11-json-parsing-in-spark_2.png
+    image_path: meta/2019-05-11-json-parsing-in-spark_2.png
+    alt: "JSON Objects in List"
+    title: "JSON Objects in List"
+gallery3:    
+  - url: meta/2019-05-11-json-parsing-in-spark_3.png
+    image_path: meta/2019-05-11-json-parsing-in-spark_3.png
+    alt: "Mixed"
+    title: "Mixed"
 ---
 SQLContext(spark 1.x~) SparkSession(spark 2.x~) has methods which make 'DataFrame' from JSON data. (you can check what 'DataFrame' is, here)
 
@@ -20,10 +42,10 @@ The problem is miss the 'new line' when converting to JSON, like **{json}\n{json
 So I did some tests about making 'Dataframe' with JSON formats.
 
 #### JSON Objects, not List  
-![image1](./meta/2019-05-11-json-parsing-in-spark_1.png)
+{% include gallery id="gallery1" %}
 
 #### JSON Objects in List  
-![image1](./meta/2019-05-11-json-parsing-in-spark_2.png)
+{% include gallery id="gallery2" %}
 
 #### Mixed
-![image1](./meta/2019-05-11-json-parsing-in-spark_3.png)
+{% include gallery id="gallery3" %}
