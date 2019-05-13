@@ -10,18 +10,18 @@ tags:
   - json
   - rdd
 gallery1:
-  - url: meta/2019-05-11-json-parsing-in-spark_1.png
-    image_path: meta/2019-05-11-json-parsing-in-spark_1.png
+  - url: /_posts/meta/2019-05-11-json-parsing-in-spark_1.png
+    image_path: /_posts/meta/2019-05-11-json-parsing-in-spark_1.png
     alt: "JSON Objects, not List"
     title: "JSON Objects, not List"
 gallery2:    
-  - url: meta/2019-05-11-json-parsing-in-spark_2.png
-    image_path: meta/2019-05-11-json-parsing-in-spark_2.png
+  - url: /_posts/meta/2019-05-11-json-parsing-in-spark_2.png
+    image_path: /_posts/meta/2019-05-11-json-parsing-in-spark_2.png
     alt: "JSON Objects in List"
     title: "JSON Objects in List"
 gallery3:    
-  - url: meta/2019-05-11-json-parsing-in-spark_3.png
-    image_path: meta/2019-05-11-json-parsing-in-spark_3.png
+  - url: /_posts/meta/2019-05-11-json-parsing-in-spark_3.png
+    image_path: /_posts/meta/2019-05-11-json-parsing-in-spark_3.png
     alt: "Mixed"
     title: "Mixed"
 ---
