@@ -9,21 +9,6 @@ tags:
   - spark
   - json
   - rdd
-gallery:
-  - url: /_posts/meta/2019-05-11-json-parsing-in-spark_1.png
-    image_path: /_posts/meta/2019-05-11-json-parsing-in-spark_1.png
-    alt: "JSON Objects, not List"
-    title: "JSON Objects, not List"
-gallery2:    
-  - url: /_posts/meta/2019-05-11-json-parsing-in-spark_2.png
-    image_path: /_posts/meta/2019-05-11-json-parsing-in-spark_2.png
-    alt: "JSON Objects in List"
-    title: "JSON Objects in List"
-gallery3:    
-  - url: /_posts/meta/2019-05-11-json-parsing-in-spark_3.png
-    image_path: /_posts/meta/2019-05-11-json-parsing-in-spark_3.png
-    alt: "Mixed"
-    title: "Mixed"
 ---
 SQLContext(spark 1.x~) SparkSession(spark 2.x~) has methods which make 'DataFrame' from JSON data. (you can check what 'DataFrame' is, here)
 
@@ -42,10 +27,16 @@ The problem is miss the 'new line' when converting to JSON, like **{json}\n{json
 So I did some tests about making 'Dataframe' with JSON formats.
 
 #### JSON Objects, not List  
-{% include gallery id="gallery" %}
+{% capture fig_img %}
+![JSON Objects, not List]({{ "meta/2019-05-11-json-parsing-in-spark_1.png" | relative_url }})
+{% endcapture %}
 
 #### JSON Objects in List  
-{% include gallery id="gallery2" %}
+{% capture fig_img %}
+![JSON Objects in List]({{ "meta/2019-05-11-json-parsing-in-spark_2.png" | relative_url }})
+{% endcapture %}
 
 #### Mixed
-{% include gallery id="gallery3" %}
+{% capture fig_img %}
+![Mixed]({{ "meta/2019-05-11-json-parsing-in-spark_3.png" | relative_url }})
+{% endcapture %}
