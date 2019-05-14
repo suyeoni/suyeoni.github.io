@@ -28,15 +28,15 @@ So I did some tests about making 'Dataframe' with JSON formats.
 
 #### JSON Objects, not List  
 {% capture fig_img %}
-![JSON Objects, not List]({{ "meta/2019-05-11-json-parsing-in-spark_1.png" | relative_url }})
+![JSON Objects, not List]({{ "/_posts/meta/2019-05-11-json-parsing-in-spark_1.png" | relative_url }})
 {% endcapture %}
 
 #### JSON Objects in List  
 {% capture fig_img %}
-![JSON Objects in List]({{ "meta/2019-05-11-json-parsing-in-spark_2.png" | relative_url }})
+![JSON Objects in List]({{ "/_posts/meta/2019-05-11-json-parsing-in-spark_2.png" | relative_url }})
 {% endcapture %}
 
 #### Mixed
 {% capture fig_img %}
-![Mixed]({{ "meta/2019-05-11-json-parsing-in-spark_3.png" | relative_url }})
+![Mixed]({{ "/_posts/meta/2019-05-11-json-parsing-in-spark_3.png" | relative_url }})
 {% endcapture %}
